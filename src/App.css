@@ -1,0 +1,14 @@
+.app-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .main-content {
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 0; 
+  }
+  
+  .content-shift-right {
+    margin-left: 250px; 
+  }
+  

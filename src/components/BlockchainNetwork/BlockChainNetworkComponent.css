@@ -1,0 +1,23 @@
+/* BlockChainNetworkComponent.css */
+.network-container {
+    width: 100%;
+    max-width: 1200px; /* Limits the maximum width */
+    padding: 20px; /* Adds padding to the content */
+    margin: 0 auto; /* Centers the container */
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .network-container {
+      max-width: 90%; /* Make the width more flexible on smaller screens */
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .network-container {
+      max-width: 100%; /* For very small screens */
+      padding: 5px;
+    }
+  }
+  

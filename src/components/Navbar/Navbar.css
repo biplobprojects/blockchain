@@ -1,0 +1,93 @@
+/* Navbar.css */
+.custom-navbar {
+  /* background: linear-gradient(90deg, #007bff 0%, #6610f2 100%); */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand-custom {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-family: serif;
+}
+
+.logo {
+  transition: transform 0.2s ease;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+}
+
+.menu-button {
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+}
+
+.menu-button:hover {
+  background-color: #343a40;
+  border-color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.custom-offcanvas {
+  background-color: #343a40;
+  color: white;
+}
+
+.custom-offcanvas .offcanvas-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: blue;
+}
+
+.custom-offcanvas .nav-link {
+  font-size: 1.2rem;
+  color: #007bff;
+  transition: color 0.2s ease;
+}
+
+.custom-offcanvas .offcanvas-body {
+  background: linear-gradient(145deg, rgba(33, 37, 41, 1) 0%, rgba(56, 60, 66, 1) 100%);
+  color: #ffffff;
+  padding: 20px;
+  /* border-radius: 8px; */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.custom-offcanvas .offcanvas-body .nav-link {
+  font-weight: 500;
+  color: #f8f9fa;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  /* border-radius: 5px; */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-offcanvas .offcanvas-body .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(5px);
+  color: #ffffff;
+}
+
+.custom-offcanvas .nav-link:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.custom-offcanvas .offcanvas-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .menu-button {
+    width: 100%;
+  }
+}
